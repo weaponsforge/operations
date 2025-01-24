@@ -24,8 +24,7 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish package
-        run: |
-          cd app
-          npm publish --provenance --access public
+        working-directory: app
+        run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
