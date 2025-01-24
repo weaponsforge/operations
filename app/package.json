@@ -1,6 +1,6 @@
 {
   "name": "weaponsforge-ops",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Testing npm publish",
   "main": "index.js",
   "scripts": {
