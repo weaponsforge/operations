@@ -1,0 +1,19 @@
+{
+  "name": "operations",
+  "version": "1.0.0",
+  "description": "Testing npm publish",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weaponsforge/operations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weaponsforge/operations/issues"
+  },
+  "homepage": "https://github.com/weaponsforge/operations#readme"
+}
