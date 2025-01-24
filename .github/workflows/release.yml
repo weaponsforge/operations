@@ -16,10 +16,10 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v3
 
-      - name: Use NodeJS v16.14.2
+      - name: Use NodeJS v20.15.0
         uses: actions/setup-node@v2
         with:
-          node-version: 16.14.2
+          node-version: 20.15.0
           registry-url: https://registry.npmjs.org/
           token: ${{ secrets.NPM_TOKEN }}
 
